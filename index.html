@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>MC Desing Webpages – Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Main site stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<!-- data-page tells JavaScript which page is active -->
+<body data-page="home">
+    <!-- Shared Header + Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">MC Desing Webpages</div>
+            <nav class="main-nav">
+                <!-- data-nav is used to highlight the active link -->
+                <a href="index.html" data-nav="home">Home</a>
+                <a href="my-code.html" data-nav="my-code">My Code</a>
+                <a href="learn-webpages.html" data-nav="learn">Learn Webpages</a>
+                <a href="publish-github.html" data-nav="publish">Publish on GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero section for home page -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <h1>Welcome to MC Desing Webpages</h1>
+                <p>
+                    This website walks you step-by-step through building a simple webpage
+                    using <strong>HTML</strong>, <strong>CSS</strong>, and
+                    <strong>JavaScript</strong> — and then shows you how to publish it
+                    for <strong>free</strong> using <strong>GitHub Pages</strong>.
+                </p>
+                <p>
+                    Follow along, read the code, and use these pages as a template for your own projects.
+                </p>
+                <a class="btn primary-btn" href="learn-webpages.html">
+                    Start Learning
+                </a>
+            </div>
+        </section>
+
+        <!-- Simple intro section -->
+        <section class="section">
+            <div class="container">
+                <h2>What You'll Learn Here</h2>
+                <div class="three-column">
+                    <div class="card simple-card">
+                        <h3>Build with HTML</h3>
+                        <p>
+                            Learn how to structure your pages with headings, paragraphs,
+                            navigation menus, and sections.
+                        </p>
+                    </div>
+                    <div class="card simple-card">
+                        <h3>Style with CSS</h3>
+                        <p>
+                            Add colors, layouts, responsive grids, and clean design using
+                            a single <code>styles.css</code> file.
+                        </p>
+                    </div>
+                    <div class="card simple-card">
+                        <h3>Add JS Interactivity</h3>
+                        <p>
+                            Use JavaScript to add features like a Back to Top button and
+                            active navigation highlights.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 MC Desing Webpages – Stay inspired, keep creating.</p>
+            <div class="footer-links">
+                <!-- Placeholder links -->
+                <a href="#" aria-label="YouTube channel link">YouTube</a>
+                <a href="#" aria-label="GitHub profile link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top button (shared across all pages) -->
+    <button id="backToTop" aria-label="Back to top">
+        ↑ Top
+    </button>
+
+    <!-- Shared JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

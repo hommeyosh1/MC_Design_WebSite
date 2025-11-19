@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>MC Desing Webpages – Learn How This Website Works</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="learn">
+    <!-- Shared Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">MC Desing Webpages</div>
+            <nav class="main-nav">
+                <a href="index.html" data-nav="home">Home</a>
+                <a href="my-code.html" data-nav="my-code">My Code</a>
+                <a href="learn-webpages.html" data-nav="learn">Learn Webpages</a>
+                <a href="publish-github.html" data-nav="publish">Publish on GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Learn How This Website Works</h1>
+                <p>
+                    This page breaks down the three main pieces that power this site.
+                    Once you understand these, you can customize everything for your own projects.
+                </p>
+
+                <!-- Three learning boxes -->
+                <div class="learn-grid">
+                    <!-- HTML box -->
+                    <article class="card learn-card learn-html">
+                        <h2>HTML = Structure</h2>
+                        <p>
+                            HTML (HyperText Markup Language) is the skeleton of your page.
+                            It defines headings, paragraphs, links, images, and the overall layout.
+                        </p>
+                        <p>
+                            In this project, each page is a separate <code>.html</code> file:
+                            <code>index.html</code>, <code>my-code.html</code>,
+                            <code>learn-webpages.html</code>, and <code>publish-github.html</code>.
+                        </p>
+                    </article>
+
+                    <!-- CSS box -->
+                    <article class="card learn-card learn-css">
+                        <h2>CSS = Style</h2>
+                        <p>
+                            CSS (Cascading Style Sheets) controls how everything looks: colors,
+                            fonts, spacing, and layout.
+                        </p>
+                        <p>
+                            We place all styles in one file, <code>styles.css</code>,
+                            and link it in each HTML page so the design stays consistent.
+                        </p>
+                    </article>
+
+                    <!-- JavaScript box -->
+                    <article class="card learn-card learn-js">
+                        <h2>JavaScript = Interactivity</h2>
+                        <p>
+                            JavaScript adds behavior and interactivity to your site.
+                            It can respond to clicks, scroll events, and update the page without reloading.
+                        </p>
+                        <p>
+                            This site uses <code>script.js</code> to:
+                            show a Back to Top button, smoothly scroll up, and highlight the active page in the navigation.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 MC Desing Webpages – Stay inspired, keep creating.</p>
+            <div class="footer-links">
+                <a href="#">YouTube</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top button -->
+    <button id="backToTop" aria-label="Back to top">
+        ↑ Top
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
